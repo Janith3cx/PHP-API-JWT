@@ -1,0 +1,12 @@
+{
+    "name": "f/api",
+    "description": "sample api using jwt to test connectivity bewteen server and api",
+    "autoload": {
+        "psr-4": {
+            "F\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
